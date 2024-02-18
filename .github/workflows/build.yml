@@ -24,4 +24,4 @@ jobs:
             folder: dist
             clean: true
         env:
-            ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
+            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}    
