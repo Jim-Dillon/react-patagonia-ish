@@ -1,5 +1,7 @@
 import { FunctionComponent } from "react";
-import styles from '/src/css/ClothesCard.module.scss'
+import styles from '/src/css/ClothesCard.module.scss';
+import heartIcon from '/src/assets/heart_icon.svg';
+import quickAddIcon from '/src/assets/quickAdd_icons.svg';
 
 interface ClothesCardProps {
     price: string;
@@ -18,7 +20,7 @@ const ClothesCard: FunctionComponent<ClothesCardProps> = ({ title, price, reduce
             <div className={styles.clothesCard__imgWrapper}>
                 <img src={imageSrc} alt="Clothes card img" />
                 <p className={styles.offerTag}>{`${offer} off`}</p>
-                <img className={styles.heartSave} src="src/assets/heart_icon.svg" alt="" />
+                <img className={styles.heartSave} src={heartIcon} alt="" />
             </div>
             <div className={styles.clothesCard__meta}>
                 <div className={styles.swatchContainer}>
@@ -37,7 +39,7 @@ const ClothesCard: FunctionComponent<ClothesCardProps> = ({ title, price, reduce
                     <div className={styles.newPrice}>{reducedPrice}</div>
                 </div>
                 <button className={styles.quickAdd}>
-                    <img src="src/assets/quickAdd_icons.svg" alt="" />
+                    <img src={quickAddIcon} alt="" />
                 </button>
             </div>
         </div>

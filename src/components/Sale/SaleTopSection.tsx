@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import SaleButton from "./SaleButton"
-import styles from '/src/css/SaleTopSection.module.scss'
+import styles from '/src/css/SaleTopSection.module.scss';
+import filterIcon from '/src/assets/filter_icon.svg';
 
 const SaleTopSection: FunctionComponent = () => {
   return (
@@ -19,7 +20,7 @@ const SaleTopSection: FunctionComponent = () => {
           <div className={styles.saleSection__filter}>
             <p>Filter & Sort</p>
           </div>
-          <img src="src/assets/filter_icon.svg" alt="" className={styles.saleSection__filterIcon} />
+          <img src={filterIcon} alt="" className={styles.saleSection__filterIcon} />
         </div>
         <div className={styles.saleSection__ButtonSection}>
           <div className={styles.saleSection__ButtonGrid}>
