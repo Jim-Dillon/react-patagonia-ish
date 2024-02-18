@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Jim-Dillon.github.io/react-patagonia-ish",
+  "homepage": "https://jim-dillon.github.io/react-patagonia-ish",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
