@@ -5,6 +5,9 @@ import image__ArrowDown from '/src/assets/arrow_down.svg';
 import patagonia from '/src/assets/img/Patagonia.png';
 import burgerIcon from '/src/assets/burger_icon.svg';
 import searchIcon from '/src/assets/search_icon.svg';
+import heartIcon from '/src/assets/heart_icon.svg';
+import basketIcon from '/src/assets/basket_icon.svg';
+import userIcon from '/src/assets/user_icon.svg';
 
 
 const TopNav: FunctionComponent = () => {
@@ -38,11 +41,11 @@ const TopNav: FunctionComponent = () => {
                 </div>
                 <img src={patagonia} alt="" className={styles.patLogo}/>
                 <div className={styles.headerRight}>
-                    <HeadButton imageSrc="src/assets/search_icon.svg" className={`${styles.headerIcon} ${styles.searchIcon} ${styles.bigIcon}`} />
-                    <HeadButton imageSrc="src/assets/user_icon.svg" className={`${styles.headerIcon} ${styles.userIcon} ${styles.bigIcon}`} />
-                    <HeadButton imageSrc="src/assets/heart_icon.svg" className={`${styles.headerIcon} ${styles.heartIcon}`} />
-                    <HeadButton imageSrc="src/assets/basket_icon.svg" className={`${styles.headerIcon} ${styles.basketIcon}`} />
-                    <HeadButton imageSrc="src/assets/burger_icon.svg" className={`${styles.headerIcon} ${styles.burgerIcon} ${styles.bigIcon}`} />
+                    <HeadButton imageSrc={searchIcon} className={`${styles.headerIcon} ${searchIcon} ${styles.bigIcon}`} />
+                    <HeadButton imageSrc={userIcon} className={`${styles.headerIcon} ${styles.userIcon} ${styles.bigIcon}`} />
+                    <HeadButton imageSrc={heartIcon} className={`${styles.headerIcon} ${styles.heartIcon}`} />
+                    <HeadButton imageSrc={basketIcon} className={`${styles.headerIcon} ${styles.basketIcon}`} />
+                    <HeadButton imageSrc={burgerIcon} className={`${styles.headerIcon} ${styles.burgerIcon} ${styles.bigIcon}`} />
                 </div>
             </div>
         </nav>
