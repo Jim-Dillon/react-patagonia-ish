@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "/src/css/Footer.module.scss"
 import FooterButton from "./FooterButton";
-
+import flag from '/src/assets/british_flag.svg'
 
 const Footer: FunctionComponent = () => {
 
@@ -99,7 +99,7 @@ const Footer: FunctionComponent = () => {
                     </div>
                     <div className={styles.footer__CountrySelector}>
                         <p>English</p>
-                        <img src="src/assets/british_flag.svg" alt="" className="flag" />
+                        <img src={flag} alt="" className="flag" />
                     </div>
                 </div>
         </footer>
