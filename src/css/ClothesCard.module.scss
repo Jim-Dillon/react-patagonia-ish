@@ -1,0 +1,253 @@
+.shopSection {
+    @media only screen and (min-width: 1025px) {
+        display: flex;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+.clothesSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+    @media only screen and (min-width: 992px) {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    @media only screen and (min-width: 1025px) {
+        width: calc(100% - 300px);
+        padding: 0 0.5rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        padding: 0;
+    }
+}
+
+.clothesCard {
+    cursor: pointer;
+    font-family: "Avenir Next";
+    margin-bottom: 2.4rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    width: 50%;
+
+    &:hover .offerTag {
+        display: none;
+    }
+
+    &:hover .heartSave {
+        display: initial;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 992px) {
+        padding-right: 0.55rem;
+        padding-left: 0.55rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 33.3333%;
+    }
+}
+
+.clothesCard__imgWrapper {
+    background-color: #f5f5f5;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: relative;
+
+    @media only screen and (min-width: 992px) {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+}
+
+.offerTag {
+    background-color: white;
+    border-radius: 0.4rem;
+    font-size: 10px;
+    font-weight: 600;
+    left: 0.6rem;
+    line-height: 1.4rem;
+    margin-top: 0px;
+    padding: 0 0.4rem;
+    position: absolute;
+    top: 0.6rem;
+}
+
+.heartSave {
+    display: none;
+    position: absolute;
+    right: 12px;
+    width: 20px !important;
+
+    &:hover {
+        width: 21px !important;
+    }
+
+    @media only screen and (min-width: 992px) {
+        top: 12px;
+    }
+}
+
+.clothesCard__meta {
+    padding: 0.7rem;
+    position: relative;
+}
+
+.swatchContainer {
+    padding-bottom: 1.6rem;
+}
+
+.swatch {
+    border: 2px solid #4a4a4a;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 0.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    &:hover {
+        transform: perspective(1px) scale3d(1.044,1.044,1) translateZ(0)!important;
+    }
+}
+
+.teal {
+    background-color: #435C5E;
+}
+
+.darkBlue {
+    background-color: #123955;
+}
+
+.lightRed {
+    background-color: #9B574B;
+}
+
+.turquoise {
+    background-color: #006979;
+}
+
+.mustard {
+    background-color: #A47B06;
+}
+
+.lightGrey {
+    background-color: #999E98;
+}
+
+.darkRed {
+    background-color: #751D2B;
+}
+
+.brown {
+    background-color: #32252C;
+}
+
+.darkBrown {
+    background-color: #191718;
+}
+
+.blue {
+    background-color: #123955;
+}
+
+.metalBlue {
+    background-color: #325B74;
+}
+
+.camo {
+    background-color: #434135;
+}
+
+.itemTitle {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-bottom: 0.4rem;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 0.85rem;
+    }
+}
+
+.itemPrice {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 0.85rem;
+    }
+}
+
+.oldPrice {
+    opacity: 0.5;
+    padding-right: 0.5rem;
+    text-decoration: line-through;
+}
+
+.newPrice {
+    color: red;
+}
+
+.quickAdd {
+    background-color: black;
+    border: 0px;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    right: 16px;
+    width: 32px;
+
+    img {
+        height: 14px;
+        margin-top: 4px;
+        width: 14px;
+    }
+}
+
+.sideBar__Container {
+    @media only screen and (max-width: 1024px) {
+        display: none;
+    }
+
+    @media only screen and (min-width: 1025px) {
+        width: 300px;
+    }
+}
+
+.sideBar__Content {
+    @media only screen and (min-width: 1025px) {
+        padding: 0 1rem;
+    }
+}
+
+.sidebar__button {
+    @media only screen and (min-width: 1025px) {
+        border-top: 1px solid color-mix(in hsl, currentcolor 8%, #0000);
+        cursor: pointer;
+        font-family: "Avenir Next";
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 0.9rem 1rem 1rem 0;
+        position: relative;
+
+        img {
+            position: absolute;
+            right: 10px;
+            top: calc(50% - 2px);
+        }
+    }
+}
