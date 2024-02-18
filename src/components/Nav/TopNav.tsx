@@ -42,7 +42,7 @@ const TopNav: FunctionComponent = () => {
                 </div>
                 <img src={patagonia} alt="" className={styles.patLogo}/>
                 <div className={styles.headerRight}>
-                    <HeadButton imageSrc={searchIcon} className={`${styles.headerIcon} ${searchIcon} ${styles.bigIcon}`} />
+                    <HeadButton imageSrc={searchIcon} className={`${styles.headerIcon} ${styles.searchIcon} ${styles.bigIcon}`} />
                     <HeadButton imageSrc={userIcon} className={`${styles.headerIcon} ${styles.userIcon} ${styles.bigIcon}`} />
                     <HeadButton imageSrc={heartIcon} className={`${styles.headerIcon} ${styles.heartIcon}`} />
                     <HeadButton imageSrc={basketIcon} className={`${styles.headerIcon} ${styles.basketIcon}`} />
