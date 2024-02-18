@@ -87,6 +87,7 @@ p, h1, a {
                 padding: 0 0.7rem 0 1rem;
 
                 a {
+                    color: black;
                     text-decoration: none;
 
                     &:hover {
@@ -94,7 +95,7 @@ p, h1, a {
                     }
 
                     &:visited {
-                        color: black;
+                        color: black !important;
                     }
                 }
             }
