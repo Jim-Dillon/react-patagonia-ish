@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import HeadButton from "./HeadButton";
 import styles from "/src/css/TopNav.module.scss";
+// import storybook from 'src/assets/storybook.svg';
 import image__ArrowDown from '/src/assets/arrow_down.svg';
 import patagonia from '/src/assets/img/Patagonia.png';
 import burgerIcon from '/src/assets/burger_icon.svg';

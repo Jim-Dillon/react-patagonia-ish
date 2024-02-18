@@ -6,6 +6,10 @@ import ClothesCard from './components/Sale/ClothesCard';
 import Footer from './components/Footer/Footer';
 import Sidebar from "./components/Sale/Sidebar";
 import SaleTopSection from "./components/Sale/SaleTopSection";
+import tealJacket from '/src/assets/clothes/jacket__teal.png'
+import turquoiseTrousers from '/src/assets/clothes/trousers__turquoise.png';
+import darkRedCoat from '/src/assets/clothes/coat__darkRed.png';
+import bluePants from '/src/assets/clothes/pants__blue.png';
 
 const App: React.FC = () => {
 
@@ -26,7 +30,7 @@ const App: React.FC = () => {
             title="W's Upstride Jacket"
             buttonColors={['teal', 'darkBlue', 'lightRed']}
             offer={'30%'}
-            imageSrc={'src/assets/clothes/jacket__teal.png'}
+            imageSrc={tealJacket}
             />
             <ClothesCard 
             price={'£290'}
@@ -34,7 +38,7 @@ const App: React.FC = () => {
             title="W's Upstride Pants"
             buttonColors={['turquoise', 'mustard', 'lightGrey']}
             offer={'20%'}
-            imageSrc={'src/assets/clothes/trousers__turquoise.png'}
+            imageSrc={turquoiseTrousers}
             />
             <ClothesCard 
             price={'£450'}
@@ -42,7 +46,7 @@ const App: React.FC = () => {
             title="M's Stormstride Jacket"
             buttonColors={['darkRed', 'brown', 'turquoise', 'blue']}
             offer={'30%'}
-            imageSrc={'src/assets/clothes/coat__darkRed.png'}
+            imageSrc={darkRedCoat}
             />
             <ClothesCard 
             price={'£380'}
@@ -50,7 +54,7 @@ const App: React.FC = () => {
             title="M's Stormstride Pants"
             buttonColors={['metalBlue', 'darkBrown', 'blue', 'brown', 'camo' ]}
             offer={'20%'}
-            imageSrc={'src/assets/clothes/pants__blue.png'}
+            imageSrc={bluePants}
             />
         </div>
       </div>
