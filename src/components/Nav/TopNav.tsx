@@ -2,7 +2,9 @@ import { FunctionComponent } from "react";
 import HeadButton from "./HeadButton";
 import styles from "/src/css/TopNav.module.scss";
 import image__ArrowDown from '/src/assets/arrow_down.svg';
-import patagonia from '/src/assets/img/Patagonia.png'
+import patagonia from '/src/assets/img/Patagonia.png';
+import burgerIcon from '/src/assets/burger_icon.svg';
+import searchIcon from '/src/assets/search_icon.svg';
 
 
 const TopNav: FunctionComponent = () => {
@@ -31,8 +33,8 @@ const TopNav: FunctionComponent = () => {
                             <a href="#">Stories</a>
                         </li>
                     </ul>
-                    <HeadButton imageSrc="src/assets/burger_icon.svg" className={`${styles.headerIcon} ${styles.burgerIcon}`} />
-                    <HeadButton imageSrc="src/assets/search_icon.svg" className={`${styles.headerIcon} ${styles.searchIcon}`} />
+                    <HeadButton imageSrc={burgerIcon} className={`${styles.headerIcon} ${styles.burgerIcon}`} />
+                    <HeadButton imageSrc={searchIcon} className={`${styles.headerIcon} ${styles.searchIcon}`} />
                 </div>
                 <img src={patagonia} alt="" className={styles.patLogo}/>
                 <div className={styles.headerRight}>
