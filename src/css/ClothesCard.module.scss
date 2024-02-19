@@ -1,3 +1,5 @@
+@import 'TopNav.module.scss';
+
 .shopSection {
     @media only screen and (min-width: 1025px) {
         display: flex;
@@ -33,7 +35,7 @@
 
 .clothesCard {
     cursor: pointer;
-    font-family: "Avenir Next";
+    font-family: $primary-font;
     margin-bottom: 2.4rem;
     padding-right: 0.25rem;
     padding-left: 0.25rem;
@@ -238,7 +240,7 @@
     @media only screen and (min-width: 1025px) {
         border-top: 1px solid color-mix(in hsl, currentcolor 8%, #0000);
         cursor: pointer;
-        font-family: "Avenir Next";
+        font-family: $primary-font;
         font-weight: 700;
         line-height: 1.5;
         padding: 0.9rem 1rem 1rem 0;
