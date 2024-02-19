@@ -19,8 +19,8 @@ footer {
     flex: 0 0 100%;
     flex-flow: row wrap;
     justify-content: flex-start;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top: 120px;
 
     li {
@@ -64,6 +64,11 @@ footer {
             font-size: 1rem;
             font-weight: 400;
         }
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     @media only screen and (min-width: 992px) {
@@ -185,8 +190,13 @@ footer {
     flex: 1 0 100%;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    @media only screen and (min-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
     @media only screen and (min-width: 992px) {
         flex-flow: row nowrap;
