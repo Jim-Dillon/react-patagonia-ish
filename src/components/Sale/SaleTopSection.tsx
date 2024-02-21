@@ -26,23 +26,18 @@ const SaleTopSection: FunctionComponent = () => {
           <div className={styles.saleSection__ButtonGrid}>
             <SaleButton 
               text="Women's"
-              className={styles.saleSection__button}
             />
             <SaleButton 
               text="Men's"
-              className={styles.saleSection__button}
             />
             <SaleButton 
               text="Kids' & Baby"
-              className={styles.saleSection__button}
             />
             <SaleButton 
               text="Packs & Gear"
-              className={styles.saleSection__button}
             />
             <SaleButton 
               text="Snow Gear"
-              className={styles.saleSection__button}
             />
         </div>
         </div>
