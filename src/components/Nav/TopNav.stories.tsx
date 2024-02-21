@@ -8,9 +8,7 @@ export default {
 } as Meta;
 
 export const HeaderNav = () => (
-  <div>
     <TopNav />
-  </div>
 );
 
 

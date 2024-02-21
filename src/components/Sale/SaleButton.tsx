@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from '/src/css/SaleTopSection.module.scss';
 
-interface SaleButtonProps {
+export interface SaleButtonProps {
     text: string;
     className?: string;
 }
