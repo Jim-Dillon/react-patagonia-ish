@@ -1,4 +1,5 @@
 import { FunctionComponent, useState } from "react";
+import OfferTag from "./OfferTag";
 import styles from '/src/css/ClothesCard.module.scss';
 import heartIcon from '/src/assets/heart_icon.svg';
 import quickAddIcon from '/src/assets/quickAdd_icons.svg';
@@ -24,9 +25,10 @@ const ClothesCard: FunctionComponent<ClothesCardProps> = ({ title, price, reduce
     return (
         <div className={styles.clothesCard}>
             <div className={styles.clothesCard__imgWrapper}>
-                {/* <img src={imageSrc} alt="Clothes card img" /> */}
                 <img src={images[selectedColor]} alt="Clothes card img" />
-                <p className={styles.offerTag}>{`${offer} off`}</p>
+                <OfferTag 
+                    offer={offer}
+                />
                 <img className={styles.heartSave} src={heartIcon} alt="" />
             </div>
             <div className={styles.clothesCard__meta}>
