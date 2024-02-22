@@ -1,5 +1,4 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
+import { Meta, StoryFn } from '@storybook/react';
 import SaleButton, { SaleButtonProps } from './SaleButton';
 
 export default {
@@ -9,7 +8,7 @@ export default {
 
 type TemplateProps = SaleButtonProps;
 
-const Template: React.FC<TemplateProps> = (args) => <SaleButton {...args} />;
+const Template: StoryFn<TemplateProps> = (args) => <SaleButton {...args} />;
 
 export const Button = Template.bind({});
 Button.args = {
