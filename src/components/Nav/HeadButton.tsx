@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-interface ButtonProps {
+export interface ButtonProps {
     imageSrc: string;
     className?: string;
 }
