@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react';
 import styles from '/src/css/ClothesCard.module.scss';
 
-interface OfferTagProps {
+export interface OfferTagProps {
     offer: string
 }
 
