@@ -140,7 +140,7 @@ p, h1, a {
     margin-right: 32px;
     padding-top: 17px;
 
-    img {
+    svg {
         width: 11px;
 
         &:hover {
@@ -149,7 +149,7 @@ p, h1, a {
     }
 }
 
-.searchIcon img {
+.searchIcon svg {
     width: 13.5px;
 
     &:hover {
@@ -158,26 +158,28 @@ p, h1, a {
 }
 
 
-.userIcon img {
+.userIcon svg {
     width: 12.5px;
 
     &:hover {
+        height: 14px;
         width: 13.5px;
     }
 }
 
-.heartIcon img {
-    width: 14px;
+.heartIcon svg {
+    width: 14px !important;
 
     &:hover {
-        width: 15px;
+        height: 13px;
+        width: 15px !important;
     }
 }
 
 .basketIcon {
     margin-left: 32px;
 
-    img {
+    svg {
         width: 12px;
 
         &:hover {
