@@ -1,5 +1,6 @@
 import { FunctionComponent, useState } from "react";
 import OfferTag from "./OfferTag";
+import Swatch from "./Swatch";
 import styles from '/src/css/ClothesCard.module.scss';
 import heartIcon from '/src/assets/heart_icon.svg';
 import quickAddIcon from '/src/assets/quickAdd_icons.svg';
@@ -10,7 +11,6 @@ interface ClothesCardProps {
     reducedPrice: string;
     buttonColors: string[];
     offer: string;
-    // imageSrc: string;
     images: string[];
 }
 
@@ -34,11 +34,12 @@ const ClothesCard: FunctionComponent<ClothesCardProps> = ({ title, price, reduce
             <div className={styles.clothesCard__meta}>
                 <div className={styles.swatchContainer}>
                     {buttonColors.map((color, index) => (
-                        <button
+                        <Swatch
                             key={index}
-                            className={`${styles.swatch} ${styles[color]}`}
+                            // className={`${styles.swatch} ${styles[color]}`}
+                            color={color}
                             onClick={() => handleColorChange(index)}
-                        ></button>
+                        />
                     ))}
                 </div>
                 <div className={styles.itemTitle}>
