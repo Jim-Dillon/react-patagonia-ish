@@ -46,6 +46,7 @@ const TopNav: FunctionComponent = () => {
             <div className={styles.utilityBar}>
                 <img src="src/assets/storybook.svg" alt="" />
                 <p>View all the React components in Storybook</p>
+                <a href="https://65dc5f2a9707fdd295561118-pgxtnrnwwa.chromatic.com/?path=/story/topnav--header-nav">View all the React components in Storybook</a>
                 {/* <p>Sale</p> */}
                 {/* <img src={image__ArrowDown} alt="" /> */}
             </div>
