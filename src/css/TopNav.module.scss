@@ -23,11 +23,12 @@ p, h1, a {
     justify-content: center;
     width: 100%;
 
-    p {
+    a {
         color: white;
         font-size: 0.75rem;
         font-weight: 700;
         margin-top: 15px;
+        text-decoration: none;
     }
 
     img {
