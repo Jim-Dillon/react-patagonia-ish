@@ -1,7 +1,6 @@
 import { FunctionComponent, ReactNode } from "react";
 
 export interface ButtonProps {
-    // imageSrc: string;
     className?: string;
     iconSVG?: ReactNode;
 }
@@ -9,7 +8,6 @@ export interface ButtonProps {
 const HeadButton: FunctionComponent<ButtonProps> = ({ className, iconSVG }) => {
     return (
         <div className={className}>
-            {/* <img src={imageSrc} alt="Button image" /> */}
             {iconSVG}
         </div>
     );
