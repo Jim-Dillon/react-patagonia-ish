@@ -4,7 +4,7 @@ import styles from '/src/css/ClothesCard.module.scss'
 
 const Sidebar: FunctionComponent = () => {
   return (
-    <div className={styles.sideBar__Container}>
+    <div className={styles.sideBar__Container}> 
         <div className={styles.sideBar__Content}>
             <SidebarButton text='Size' />
             <SidebarButton text='Price' />
@@ -15,7 +15,5 @@ const Sidebar: FunctionComponent = () => {
     </div>
   )
 }
-
-
 
 export default Sidebar;
