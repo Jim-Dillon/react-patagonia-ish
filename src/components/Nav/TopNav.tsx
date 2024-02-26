@@ -41,7 +41,7 @@ const TopNav: FunctionComponent = () => {
         <nav>
             <div className={styles.utilityBar}>
                 <img src={storybookIcon} alt="" />
-                <a href="https://65dc5f2a9707fdd295561118-yjikaizzye.chromatic.com/">View all the React components in Storybook</a>
+                <a href="https://65dc5f2a9707fdd295561118-yjikaizzye.chromatic.com/" target="_blank">View all the React components in Storybook</a>
                 {/* <p>Sale</p> */}
                 {/* <img src={image__ArrowDown} alt="" /> */}
             </div>
