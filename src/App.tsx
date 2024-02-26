@@ -41,7 +41,6 @@ const App: React.FC = () => {
             title="W's Upstride Jacket"
             buttonColors={['teal', 'darkBlue', 'lightRed']}
             offer={'30%'}
-            // imageSrc={tealJacket}
             images={[tealJacket, darkBlueJacket, lightRedJacket]}
             />
             <ClothesCard 
@@ -50,7 +49,6 @@ const App: React.FC = () => {
             title="W's Upstride Pants"
             buttonColors={['turquoise', 'mustard', 'lightGrey']}
             offer={'20%'}
-            // imageSrc={turquoiseTrousers}
             images={[turquoiseTrousers, mustardTrousers, lightGreyTrousers]}
             />
             <ClothesCard 
@@ -59,7 +57,6 @@ const App: React.FC = () => {
             title="M's Stormstride Jacket"
             buttonColors={['darkRed', 'brown', 'turquoise', 'blue']}
             offer={'30%'}
-            // imageSrc={darkRedCoat}
             images={[darkRedCoat, brownCoat, turquoiseCoat, blueCoat]}
             />
             <ClothesCard 
@@ -68,7 +65,6 @@ const App: React.FC = () => {
             title="M's Stormstride Pants"
             buttonColors={['metalBlue', 'darkBrown', 'blue', 'brown', 'camo' ]}
             offer={'20%'}
-            // imageSrc={bluePants}
             images={[metalBluePants, darkBrownPants, bluePants, brownPants, camoPants]}
             />
         </div>
