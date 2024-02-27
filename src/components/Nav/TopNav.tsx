@@ -1,7 +1,8 @@
 import { FunctionComponent } from "react";
 import HeadButton from "./HeadButton";
 import styles from "/src/css/TopNav.module.scss";
-import storybookIcon from '/src/assets/storybook.svg'
+import storybookIcon from '/src/assets/storybook.svg';
+import openIcon from '/src/assets/open_icon.svg'
 // import image__ArrowDown from '/src/assets/arrow_down.svg';
 import patagonia from '/src/assets/img/Patagonia.png';
 
@@ -41,7 +42,10 @@ const TopNav: FunctionComponent = () => {
         <nav>
             <div className={styles.utilityBar}>
                 <img src={storybookIcon} alt="" />
-                <a href="https://65dc5f2a9707fdd295561118-yjikaizzye.chromatic.com/" target="_blank">View all the React components in Storybook</a>
+                <p>View all the React components in Storybook</p>
+                <a href="http://www.chromatic.com/library?appId=65dc5f2a9707fdd295561118&inviteToken=chpi_597402302ac545f7970eccc081cfca27" target="_blank">
+                    <img src={openIcon} alt="" />
+                </a>
                 {/* <p>Sale</p> */}
                 {/* <img src={image__ArrowDown} alt="" /> */}
             </div>
