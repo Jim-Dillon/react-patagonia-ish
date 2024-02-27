@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import Swatch, { SwatchProps } from './Swatch';
+import Swatch, { SwatchProps } from '../Sale/Swatch';
 
 export default {
     title: 'Swatch',

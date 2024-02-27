@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import OfferTag, { OfferTagProps } from './OfferTag';
+import OfferTag, { OfferTagProps } from '../Sale/OfferTag';
 
 
 export default {

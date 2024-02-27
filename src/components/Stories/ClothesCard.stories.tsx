@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import ClothesCard, { ClothesCardProps } from './ClothesCard';
+import ClothesCard, { ClothesCardProps } from '../Sale/ClothesCard';
 import turquoiseTrousers from '/src/assets/clothes/trousers__turquoise.png';
 import mustardTrousers from '/src/assets/clothes/trousers__mustard.png';
 import lightGreyTrousers from '/src/assets/clothes/trousers__lightGrey.png';

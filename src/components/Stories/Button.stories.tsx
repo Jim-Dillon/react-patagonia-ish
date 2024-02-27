@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import SaleButton, { SaleButtonProps } from './SaleButton';
+import SaleButton, { SaleButtonProps } from '../Sale/SaleButton';
 import HeadButton, { ButtonProps } from '../Nav/HeadButton';
 import FooterButton, { FooterButtonProps } from '../Footer/FooterButton';
 

@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/react';
-import TopNav from './TopNav';
+import TopNav from '../Nav/TopNav';
 
 export default {
   title: 'TopNav',

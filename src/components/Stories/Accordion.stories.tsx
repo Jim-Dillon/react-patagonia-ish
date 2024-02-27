@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/react';
-import Sidebar from './Sidebar';
+import Sidebar from '../Sale/Sidebar';
 
 export default {
     title: 'Accordion',
