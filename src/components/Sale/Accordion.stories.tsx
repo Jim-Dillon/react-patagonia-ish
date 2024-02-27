@@ -4,9 +4,14 @@ import Sidebar from './Sidebar';
 export default {
     title: 'Accordion',
     component: Sidebar,
+    parameters: {
+        viewport: {
+          defaultViewport: 'desktop',
+        },
+      },
   } as Meta;
   
   export const Default = () => (
-      <Sidebar />
+    <Sidebar />
   );
 
