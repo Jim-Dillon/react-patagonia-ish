@@ -1,13 +1,14 @@
 import { FunctionComponent } from "react";
+import styles from "/src/css/Footer.module.scss"
 
-interface FooterButtonProps {
+export interface FooterButtonProps {
     text: string;
 }
 
 
 const FooterButton: FunctionComponent<FooterButtonProps> = ({ text }) => {
     return (
-        <a>
+        <a className={styles.footer__HelpButton}>
             {text}
         </a>
     );

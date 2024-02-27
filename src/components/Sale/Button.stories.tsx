@@ -1,6 +1,7 @@
 import { Meta, StoryFn } from '@storybook/react';
 import SaleButton, { SaleButtonProps } from './SaleButton';
 import HeadButton, { ButtonProps } from '../Nav/HeadButton';
+import FooterButton, { FooterButtonProps } from '../Footer/FooterButton';
 
 export default {
   title: 'Button',
@@ -15,6 +16,15 @@ Primary.args = {
   text: 'Click me',
 };
 
+
+type FooterButtonTemplateProps = FooterButtonProps;
+
+const FooterButtonTemplate: StoryFn<FooterButtonTemplateProps> = (args) => <FooterButton {...args} />;
+
+export const Footer = FooterButtonTemplate.bind({});
+Footer.args = {
+  text: 'Customer Service',
+}
 
 
 const basketIcon = (
@@ -34,5 +44,8 @@ export const IconOnly = SecondaryButtonTemplate.bind({});
 IconOnly.args = {
   iconSVG: basketIcon,
 };
+
+
+
 
 
