@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react';
 import styles from '/src/css/ClothesCard.module.scss';
 
-interface SwatchProps {
+export interface SwatchProps {
   color: string;
   onClick: () => void;
 }
