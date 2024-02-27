@@ -5,7 +5,7 @@ import styles from '/src/css/ClothesCard.module.scss';
 import heartIcon from '/src/assets/heart_icon.svg';
 import quickAddIcon from '/src/assets/quickAdd_icons.svg';
 
-interface ClothesCardProps {
+export interface ClothesCardProps {
     price: string;
     title: string;
     reducedPrice: string;
