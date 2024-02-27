@@ -6,7 +6,7 @@ export default {
   component: TopNav,
 } as Meta;
 
-export const HeaderNav = () => (
+export const Default = () => (
     <TopNav />
 );
 

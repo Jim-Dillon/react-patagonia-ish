@@ -10,7 +10,7 @@ type OfferTagTemplateProps = OfferTagProps;
 
 const OfferTagTemplate: StoryFn<OfferTagTemplateProps> = (args) => <OfferTag {...args} />;
 
-export const Discount = OfferTagTemplate.bind({});
-Discount.args = {
+export const Default = OfferTagTemplate.bind({});
+Default.args = {
   offer: '20%'
 };

@@ -9,8 +9,8 @@ export default {
   const Template: StoryFn<SwatchProps> = (args) => 
     <Swatch {...args} />
 
-  export const Primary = Template.bind({}); (
-    Primary.args = {
+  export const Default = Template.bind({}); (
+    Default.args = {
         color: 'mustard'
     }
     

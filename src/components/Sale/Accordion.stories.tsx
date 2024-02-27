@@ -6,7 +6,7 @@ export default {
     component: Sidebar,
   } as Meta;
   
-  export const Primary = () => (
+  export const Default = () => (
       <Sidebar />
   );
 
