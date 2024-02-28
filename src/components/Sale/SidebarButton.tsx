@@ -15,10 +15,11 @@ const SidebarButton: FunctionComponent<SidebarButtonProps> = ({ text, sidebarTag
         {text}
         <img src={sidebar__ArrowDown} alt="" />
         <ul>
-          {sidebarTags.map((index) => (
+          {sidebarTags.map((tag, index) => (
             <SidebarTag
                 key={index}
-                sidebarTags={sidebarTags}
+                // sidebarTags={sidebarTags}
+                tag={tag}
               />
             ))}
         </ul>

@@ -3,13 +3,15 @@ import { FunctionComponent } from "react";
 
 
 interface SidebarTagProps {
-    sidebarTags: string[];
+    // sidebarTags: string[],
+    tag: string
 }
 
-const SidebarTag: FunctionComponent<SidebarTagProps> = ({ sidebarTags }) => {
+const SidebarTag: FunctionComponent<SidebarTagProps> = ({ tag }) => {
   return (
     <li>
-        {sidebarTags}
+        {/* {sidebarTags} */}
+        {tag}
     </li>
   )
 }
