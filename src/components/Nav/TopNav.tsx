@@ -72,7 +72,9 @@ const TopNav: FunctionComponent = () => {
                         iconSVG={searchIcon} 
                         className={`${styles.headerIcon} ${styles.searchIcon}`} />
                 </div>
-                <img src={patagonia} alt="" className={styles.patLogo}/>
+                <a href="#">
+                    <img src={patagonia} alt="" className={styles.patLogo}/>
+                </a>
                 <div className={styles.headerRight}>
                     <HeadButton 
                         iconSVG={searchIcon} 
