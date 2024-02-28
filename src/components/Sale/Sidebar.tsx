@@ -6,11 +6,21 @@ const Sidebar: FunctionComponent = () => {
   return (
     <div className={styles.sideBar__Container}> 
         <div className={styles.sideBar__Content}>
-            <SidebarButton text='Size' />
-            <SidebarButton text='Price' />
-            <SidebarButton text='Colour' />
-            <SidebarButton text='Features' />
-            <SidebarButton text='Materials & Our Footprint' />
+            <SidebarButton 
+              text='Size'
+              sidebarTags={['L (2)', 'M (2)']} />
+            <SidebarButton 
+              text='Price'
+              sidebarTags={['L (2)', 'M (2)']} />
+            <SidebarButton 
+              text='Colour' 
+              sidebarTags={['L (2)', 'M (2)']} />
+            <SidebarButton 
+              text='Features' 
+              sidebarTags={['L (2)', 'M (2)', 'S (1)']} />
+            <SidebarButton 
+              text='Materials & Our Footprint' 
+              sidebarTags={['L (2)', 'M (2)']} />
         </div>
     </div>
   )
