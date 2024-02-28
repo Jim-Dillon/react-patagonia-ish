@@ -10,7 +10,7 @@ const SaleTopSection: FunctionComponent = () => {
           <h1>Just for fun</h1>
         </div>
         <div className={styles.saleSection__para}>
-          <p>This project was a challenge I set myself to build a landing page using React, using a brand's design that I really like. Using Vite, this app was built with React and TypeScript to combine multiple components together into a single UI. 
+          <p>This project is a challenge I set myself to remake an existing page from the Patagonia website with React. Using Vite, this React app is built with TypeScript to create a single UI, using components which I've stored in Storybook. Feel free to have a look around and even click through the colour swatches! 
           </p>
         </div>
         <div className={styles.saleSection__title}>
