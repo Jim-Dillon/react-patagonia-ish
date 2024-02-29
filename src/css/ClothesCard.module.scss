@@ -62,6 +62,10 @@
     @media only screen and (min-width: 1200px) {
         width: 33.3333%;
     }
+
+    @media only screen and (min-width: 1800px) {
+        width: 25%;
+    }
 }
 
 .clothesCard__imgWrapper {
@@ -213,6 +217,10 @@
     position: absolute;
     right: 16px;
     width: 32px;
+
+    @media only screen and (min-width: 768px) {
+        display: none;
+    }
 
     img {
         height: 14px;
