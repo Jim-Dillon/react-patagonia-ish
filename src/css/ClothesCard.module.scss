@@ -267,5 +267,15 @@
                 padding: 12px 14px;
             }
         }
+
+        li {
+            background: color-mix(in hsl, currentColor 4%, #0000);
+            border-radius: 22px;
+            display: inline-block;
+            font-size: 0.8rem;
+            list-style: none;
+            margin: 0 0.5rem 0.5rem 0;
+            padding: 12px 14px;
+        }
     }
 }

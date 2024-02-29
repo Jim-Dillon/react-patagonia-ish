@@ -6,13 +6,17 @@ import Swatch from './Swatch';
 
 const Sidebar: FunctionComponent = () => {
 
-  const swatchColors = ['turquoise', 'mustard', 'lightGrey']
+  const swatchColors = ['teal', 'darkBlue', 'lightRed', 'turquoise', 'mustard', 'lightGrey', 'darkRed', 'brown', 'blue', 'metalBlue', 'darkBrown', 'camo']
 
   const swatchElements = swatchColors.map((color, index) => (
-    <Swatch
+    <li className={styles.sideBar__Swatch}>
+      <Swatch
         key={index}
-        color={color}
-    />
+        color={color} />
+        <span>(1)</span>
+    </li>
+    
+    
 ))
 
   return (
