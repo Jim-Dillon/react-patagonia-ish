@@ -3,7 +3,7 @@ import styles from '/src/css/ClothesCard.module.scss';
 
 export interface SwatchProps {
   color: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 const Swatch: FunctionComponent<SwatchProps> = ({ color, onClick }) => {
