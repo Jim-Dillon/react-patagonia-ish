@@ -21,21 +21,21 @@ const SidebarButton: FunctionComponent<SidebarButtonProps> = ({ text, sidebarTag
 
   return (
     <div className={styles.sidebar__button} onClick={toggleVisibility}>
-        {text}
-        <img src={sidebar__ArrowDown} alt="" style={{ transform: isClicked ? 'translateY(-10%) rotate(180deg)' : 'none' }} />
-        <ul style={{ display: isVisible ? 'flex' : 'none' }}>
+      {text}
+      <img src={sidebar__ArrowDown} alt="" style={{ transform: isClicked ? 'translateY(-10%) rotate(180deg)' : 'none' }} />
+      <ul style={{ display: isVisible ? 'block' : 'none' }}>
         {sidebarTags && sidebarTags.map((tag, index) => (
-          <SidebarTag
-            key={index}
-            tag={tag}
-          />
+            <SidebarTag
+                key={index}
+                tag={tag}
+            />
         ))}
       </ul>
       <div style={{ display: isVisible ? 'block' : 'none' }}>
         {children}
       </div>
     </div>
-  )
+  );
 }
 
 export default SidebarButton
