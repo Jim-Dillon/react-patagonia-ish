@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import styles from '/src/css/ClothesCard.module.scss';
+import styles from '../../css/ClothesCard.module.scss';
 
 export interface SwatchProps {
   color: string;
@@ -11,6 +11,7 @@ const Swatch: FunctionComponent<SwatchProps> = ({ color, onClick }) => {
     <button
       className={`${styles.swatch} ${styles[color]}`}
       onClick={onClick}
+      data-testid="swatch"
     ></button>
   );
 };

@@ -11,15 +11,15 @@ export interface ClothesCardProps {
     reducedPrice: string;
     buttonColors: string[];
     offer: string;
-    images: string[];
+    images: string[]; 
 }
 
 const ClothesCard: FunctionComponent<ClothesCardProps> = ({ title, price, reducedPrice, buttonColors, offer, images }) => {
 
     const [selectedColor, setSelectedColor] = useState(0);
-
     const handleColorChange = (index: number) => {
-        setSelectedColor(index);
+    setSelectedColor(index);
+    console.log('Hi');  
     };
 
     return (
