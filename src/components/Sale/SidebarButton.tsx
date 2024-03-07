@@ -1,6 +1,8 @@
 import { FunctionComponent, ReactNode, useState } from "react";
 import SidebarTag from "./SidebarTag";
-import styles from '/src/css/ClothesCard.module.scss'
+import styles from '/src/css/ClothesCard.module.scss';
+
+
 import sidebar__ArrowDown from '/src/assets/arrow_down__black.svg';
 
 interface SidebarButtonProps {

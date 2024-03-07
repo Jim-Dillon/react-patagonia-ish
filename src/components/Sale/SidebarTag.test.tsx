@@ -1,6 +1,13 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import SidebarTag from './SidebarTag'; 
 
 test('renders the SidebarTag component', () => {
-  render(<SidebarTag tag="TestTag" />);
+  const tagName = 'TestTag';
+  render(
+    <SidebarTag tag={tagName} />
+  );
+  const tagElement: HTMLElement = screen.getByText(tagName);
+  expect(tagElement).toBeInTheDocument();
 });
+
