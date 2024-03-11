@@ -5,7 +5,6 @@ export interface FooterButtonProps {
     text: string;
 }
 
-
 const FooterButton: FunctionComponent<FooterButtonProps> = ({ text }) => {
     return (
         <a className={styles.footer__HelpButton}>
